@@ -1,7 +1,8 @@
 import IconWithBorder from "./IconWithBorder";
 import IconWithText from "./IconWithText";
 import SearchBar from "./SearchBar";
-export function Header({ ownerName, repoName }) {
+
+export default function Header({ ownerName, repoName }) {
     return (
         <div className="px-[10px] pt-[5px] border-b-[1px]">
             <div className="flex justify-between">
@@ -22,7 +23,7 @@ export function Header({ ownerName, repoName }) {
                 </div>
                 <div className="ml-auto mt-[5px]">
                     <div className="flex justify-between">
-                        <SearchBar />
+                        <SearchBar placeHolder={'Type / to search'} />
                         <div className="hidden lg:flex">
                             <IconWithBorder svgUrl={'/plus.svg'} />
                             <IconWithBorder svgUrl={'/issue.svg'} />
