@@ -24,6 +24,7 @@ export function Header({ ownerName, repoName }) {
                     <IconWithBorder svgUrl={'/issue.svg'} />
                     <IconWithBorder svgUrl={'/merge.svg'} />
                     <IconWithBorder svgUrl={'/mailbox.svg'} />
+                    <IconWithBorder svgUrl={'/profilePhoto.jpeg'} />
                 </div>
             </div>
         </div>
