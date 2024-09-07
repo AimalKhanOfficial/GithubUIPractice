@@ -1,4 +1,5 @@
 import BranchInfoHeader from "./components/BranchInfoHeader"
+import FileExplorer from "./components/FileExplorer"
 import Header from "./components/Header"
 import RepoActions from "./components/RepoActions"
 
@@ -11,6 +12,7 @@ function App() {
         <div className="flex justify-between lg:mt-[20px]">
           <div className="w-full lg:w-[70%]">
             <BranchInfoHeader />
+            <FileExplorer />
           </div>
           <div className="hidden lg:block lg:w-[30%] border ml-[5px] p-[5px]">
             <p>SideBar</p>
